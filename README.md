@@ -1,14 +1,25 @@
 # Project Architecture
 
-### Technologies
+++++
+🎯 Base architecture to develop React project
+++++
 
-⚽ React.js <br/>
-⚾ Redux Toolkit <br/>
-🥎 Tailwind CSS <br/>
-🏀 Typescript <br/>
-🏐 Vite <br/>
+## Features
 
-### Commands
+### Main
+
+⚽ React.js 18.2.0 <br/>
+⚽ Redux Toolkit 1.9.5 <br/>
+⚽ Tailwind CSS 3.3.2 <br/>
+⚽ Typescript 5.0.2 <br/>
+⚽ Vite 4.4.0 <br/>
+
+### Conventional Commit
+
+⚾ Commitlint 17.6.6 <br/>
+⚾ Husky 8.0.3 <br/>
+
+## Commands
 
 🛠 How to run in local
 
