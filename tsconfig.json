@@ -24,6 +24,7 @@
       "@/store/*": ["src/store/*"],
       "@/redux/*": ["src/redux/*"],
       "@/hooks/*": ["src/hooks/*"],
+      "@/pages/*": ["src/pages/*"],
     }
   },
   "include": ["src"],

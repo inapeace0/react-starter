@@ -1,7 +1,7 @@
 import { useAppSelector, useAppDispatch } from '@/hooks/hooks'
 import { decrement, increment } from '@/redux/counter/counterSlice'
 
-function App() {
+function CounterPage() {
    // The `state` arg is correctly typed as `RootState` already
    const count = useAppSelector((state) => state.counter.value)
    const dispatch = useAppDispatch()
@@ -27,4 +27,4 @@ function App() {
    )
 }
 
-export default App
+export default CounterPage
