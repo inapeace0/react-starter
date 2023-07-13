@@ -6,22 +6,26 @@
 
 ## Features
 
-### Main
+### ⚽ Main
 
-⚽ React.js 18.2.0 <br/>
-⚽ React Router Dom 6.14.1 <br/>
-⚽ Redux Toolkit 1.9.5 <br/>
-⚽ Tailwind CSS 3.3.2 <br/>
-⚽ Typescript 5.0.2 <br/>
-⚽ Vite 4.4.0 <br/>
+- React.js 18.2.0 <br/>
+- React Router Dom 6.14.1 <br/>
+- Redux Toolkit 1.9.5 <br/>
+- Tailwind CSS 3.3.2 <br/>
+- Typescript 5.0.2 <br/>
+- Vite 4.4.0 <br/>
 
-### Conventional Commit
+### ⚾ Conventional Commit
 
-⚾ Commitlint 17.6.6 <br/>
-⚾ Husky 8.0.3 <br/>
+- Commitlint 17.6.6 <br/>
+- Husky 8.0.3 <br/>
 
-### Data Fetching
-🥎 Tanstack / react-query 4.29.19
+### 🥎 Data Fetching
+- Tanstack / react-query 4.29.19
+
+### 🏀 Form Validation
+- Formik 2.4.2 <br/>
+- Yup 1.2.0 <br/>
 
 ## Commands
 
