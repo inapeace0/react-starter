@@ -9,7 +9,8 @@ interface CountryType {
    timezones: string[]
 }
 
-const fetchCountries = (): Promise<CountryType[]> => fetch('https://restcountries.com/v3.1/all').then((res) => res.json())
+const fetchCountries = (): Promise<CountryType[]> =>
+   fetch('https://restcountries.com/v3.1/all').then((res) => res.json())
 
 function CountryPage() {
    const { isLoading, isError, error, data } = useQuery<CountryType[], Error>({
