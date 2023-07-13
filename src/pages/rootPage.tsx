@@ -12,6 +12,9 @@ function RootPage() {
                <li>
                   <Link to='/countries'>Country List</Link>
                </li>
+               <li>
+                  <Link to='/login'>Login</Link>
+               </li>
             </ul>
          </div>
       </div>

@@ -9,7 +9,8 @@ import { store } from '@/store/store'
 
 import RootPage from '@/pages/rootPage'
 import CounterPage from '@/pages/counter/counterPage'
-import CountryPage from './pages/country/countryPage.tsx'
+import CountryPage from '@/pages/country/countryPage.tsx'
+import LoginPage from '@/pages/login/loginPage.tsx'
 
 const queryClient = new QueryClient()
 
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
    {
       path: '/countries',
       element: <CountryPage />,
+   },
+   {
+      path: '/login',
+      element: <LoginPage />,
    },
 ])
 
