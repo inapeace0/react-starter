@@ -1,4 +1,4 @@
-import { useAppSelector, useAppDispatch } from '@/hooks/hooks'
+import { useAppSelector, useAppDispatch } from '@/hooks/redux'
 import { decrement, increment } from '@/redux/counter/counterSlice'
 
 function CounterPage() {
