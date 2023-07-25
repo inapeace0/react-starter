@@ -27,6 +27,9 @@
 - Formik 2.4.2 <br/>
 - Yup 1.2.0 <br/>
 
+### UI Management
+- Storybook 7.0.27
+
 ## Commands
 
 🛠 How to run in local
