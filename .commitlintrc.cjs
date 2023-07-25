@@ -1,10 +1,3 @@
 module.exports = {
-    extends: ['@commitlint/config-conventional'],
-    rules: {
-        "type-enum": [
-          2,
-          "always",
-          ["feat", "fix", "chore", "docs", "style", "refactor", "perf", "test", "deps"]
-        ]
-    }
+    extends: ['@commitlint/config-conventional']
 }
