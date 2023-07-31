@@ -12,6 +12,7 @@ function CounterPage() {
             aria-label='Increment value'
             className='border-2 m-2 p-2 border-black rounded-md'
             onClick={() => dispatch(increment())}
+            data-testid='incrementBtn'
          >
             Increment
          </button>
